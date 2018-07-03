@@ -1,0 +1,46 @@
+body {font-family: 'Montserrat', sans-serif; font-size: 14px;
+    max-width: 500px; margin: auto; align-content: center; position: relative;
+    align-content: center; align-items: center}
+
+
+body .contenedor { max-width: 100%; padding: 10px}
+
+header {position: fixed; max-width: 500px;}
+header .contenedor {background-color: coral; color: white; display: flex; padding: 20px;
+    justify-content: space-between; max-width: 100%;}
+header div {max-width: 40%;}
+header div img {max-width: 50%;}
+header div span {font-size: 25px; }
+
+
+
+.encabezado {max-width: 100%; background-color: #96D479; display: flex; margin-top: 65px;}
+.encabezado .pestana {text-align: center; width: 50%; padding: 5px}
+.pestana.activo {background-color: rgb(96, 151, 71)}
+.encabezado .pestana a {color: white; max-width: 100%; font-size: 15px}
+
+
+.catalogo {max-width: 100%;}
+.item-catalogo {display: flex; padding: 12px; border-bottom: 1px solid #dddddd; position: relative; z-index: -1;}
+.item-catalogo:last-of-type {margin-bottom: 50px;}
+
+
+.item-catalogo .foto-comida {max-width: 30%; }
+.catalogo img {max-width: 100%;}
+.item-catalogo .detalles-pedido {color: #666666; max-width: 70%; margin-left: 14px; }
+.item-catalogo .detalles-pedido h3 {font-weight: 700; font-size: 12px}
+.item-catalogo .detalles-pedido ul {list-style: circle; padding: 10px 10px 10px 20px; margin-bottom: 25px}
+.item-catalogo .detalles-pedido li {font-size: 13px; margin-bottom: 2px;} 
+
+
+.item-catalogo .footer-item {display: flex; position: absolute; bottom: 10px;}
+.footer-item img {max-width: 15%;}
+.footer-item img, .footer-item h4 {display: inline-block; font-size: 10px}
+
+.footer-item button {background-color: #96D479; border: none; color: white; width: 100px; padding: 3px;
+    font-weight: 700; height: 30px;}
+
+
+footer {position: fixed; bottom: 0; width: 100%; margin: auto; max-width: 500px; }
+footer div {background-color: #96D479; padding: 10px; text-align: center; max-width: 100%}
+footer a {color: white; font-weight: 500}
